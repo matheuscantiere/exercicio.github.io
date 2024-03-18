@@ -1,5 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,601;1,601&display=swap')
+
 .cabecalho{
 }
 .cabecalho__conteudo{
     padding: 0% 2% 0% 0%;
+}
+.foto-da-receita{
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    color: rgb(42, 104, 42);
+    font-size: 18px;
+    font-family: "Monteserrat";
+}
+table{
+    border: 1px solid rgb(138, 138, 138);
+    border-collapse: collapse;
+    font-size: 20px;
+    width: 500px;
+}
+.cabecalho__tabela{
+    background-color: rgb(79, 197, 79);
+}
+.noticia{
+    display: flex;
+}
+.noticia__capa{
+    width: 900px;
+}
+.noticia__conteudo{
+    padding: 0% 200px 0% 200px;
+    font-size: 20px;
+}
+.grafico{
+    width: 900px;
+}
+.noticia__titulo{
+    font-size: 35px;
+}
+h1{
+    font-family: "Krona One", sans-serif;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+}
+.fonte{
+    font-size: 25px;
+}
+.rodape{
+    text-align: center;
+    background-color: rgb(79, 197, 79);
+    border-radius: 16px;
+    padding: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 601;
 }
